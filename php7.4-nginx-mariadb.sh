@@ -5,7 +5,7 @@ sudo apt install nginx -y
 
 echo "UFW ENABLE NGINX HTTP & OpenSSH"
 echo "=============================>"
-sudo ufw enanble
+sudo ufw enable
 sudo ufw allow 'Nginx HTTP'
 sudo ufw allow 'OpenSSH'
 
