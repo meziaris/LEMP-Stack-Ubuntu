@@ -2,7 +2,7 @@
 Last update: 13/06/2018, tested on Ubuntu 20.04
 
 ## Overview
-- The LEMP scripts consists of:
+The LEMP scripts consists of:
 - Nginx
 - PHP7.4 and its dependencies
 - MariaDB
