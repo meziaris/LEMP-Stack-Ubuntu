@@ -6,7 +6,7 @@ The LEMP scripts consists of:
 - Nginx
 - PHP7.4 and its dependencies
 - MariaDB
-- Coming soon.
+- WordPress (Coming soon).
 
 ## Scripts
 Nginx + PHP 7.4 + MariaDB [php7.4-nginx-mariadb.sh](https://github.com/meziaris/LEMP-Stack-Ubuntu/blob/master/php7.4-nginx-mariadb.sh)
