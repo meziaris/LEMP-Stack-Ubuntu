@@ -1,21 +1,17 @@
-echo "INSTALL NGINX"
-echo "=============================>"
-sudo apt update && sudo apt upgrade -y
+#install nginx
+sudo apt update
 sudo apt install nginx -y
 
-echo "UFW ENABLE NGINX HTTP & OpenSSH"
-echo "=============================>"
-sudo ufw enable -y
+#enable firewall
+sudo ufw enable
 sudo ufw allow 'Nginx HTTP'
 sudo ufw allow 'OpenSSH'
 
-echo "INSTALL MARIADB"
-echo "=============================>"
+#install mariadb
 sudo apt-get install -y mariadb-server mariadb-client
 sudo mysql_secure_installation
 
-echo "INSTALL PHP 7.4"
-echo "=============================>"
+#install php7.4 and modulus
 sudo apt-get install software-properties-common -y
 sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update -y
