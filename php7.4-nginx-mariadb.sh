@@ -4,7 +4,6 @@ sudo apt install nginx -y
 
 #install mariadb
 sudo apt install -y mariadb-server mariadb-client
-sudo mysql_secure_installation
 
 #install php7.4 and modulus
 sudo apt install software-properties-common -y
