@@ -2,11 +2,6 @@
 sudo apt update
 sudo apt install nginx -y
 
-#enable firewall
-sudo ufw enable
-sudo ufw allow 'Nginx HTTP'
-sudo ufw allow 'OpenSSH'
-
 #install mariadb
 sudo apt install -y mariadb-server mariadb-client
 sudo mysql_secure_installation
